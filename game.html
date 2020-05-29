@@ -1,0 +1,46 @@
+<!-- 
+Project: Pong 
+Created By: Yash Paliwal
+Date Created: 04-05-2020
+Date Updated: 28-05-2020
+Description: This is a game ui page here I used canvas on which ill draw all the game elements
+ -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pong - Yash Paliwal</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- <iframe width="0" height="0" src="https://www.youtube.com/watch?v=B7xai5u_tnk" allow="autoplay" frameborder="0" allowfullscreen></iframe> -->
+    </head>
+    <body onbeforeunload="CallbackFunction();">
+
+        <div class="centerContainer">
+            <canvas id="gameCanvas" width="800" height="500" class="clsCanvas"></canvas>
+        </div>
+        <div class="instuctionDiv">
+            <h3>Description</h3>
+            <p>Hey I'm Yash and Welcome to the my Pong game, The Pong Game is very simple and 
+                easy to play. All you need is a laptop and as this is coded in
+                client side so you dont need to have a stable internet connection once the 
+                game is loaded just don't refresh your browser window;
+                <br>
+                This Game is a demonstration of the functionalities of a new technology I am learning right now.
+                <br>
+                Hope you will enjoy it :)
+            </p>    
+            <h3>Instructions</h3>
+            <ul>
+                <li>Click on the welcome screen to start the game.</li>
+                <li>Use cursor to move the paddle.</li>
+                <li>Try not to miss the ball.</li>
+                <li>Every miss cost you one point.</li>
+                <li>The player who reach the score limit first WINS the game.</li>
+            </ul>
+            <h4>* READY!? LETS PLAY *</h4>
+            <h5>Made with ❤	by Yash Paliwal</h5></p>
+        </div>
+    </body>
+
+    <!-- scripts-->
+    <script type="text/javascript" src="js/main.js"></script>    
+</html>
