@@ -9,7 +9,7 @@ window.onload = function(){
   var windowSize;
   windowSize = window.screen.width;
 this.console.log(windowSize);
-  if(windowSize<1300){
+  if(windowSize<1000){
     window.location.replace("landing.html")
   }
 }
